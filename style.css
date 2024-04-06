@@ -1,0 +1,123 @@
+*{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.menu li{
+    display: inline-flex;
+}
+.menu li a{
+    text-decoration: none;
+    justify-content: flex-end;
+    margin: 0rem 1rem;
+    font-size: 1rem;
+}
+.personal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4rem;
+}
+.personal1{
+    display: inline-flex;
+}
+.text{
+    text-align: center;
+}
+h1{
+    display: block;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+p{
+    color: #555555;
+    font-weight: 700;
+}
+.text1{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.button1{
+    text-align: center;
+    justify-content: center;
+}
+.b1{
+    background: none;
+    height: 50px;
+    width: 130px;
+    border-radius: 50px;
+    border: rgb(53,53,53) 0.1rem solid;
+}
+.b1:hover{
+    background-color: grey;
+    color: white;
+}
+.b2{
+    color: white;
+    background: none;
+    background-color: rgb(53,53,53);
+    height: 50px;
+    width: 130px;
+    border-radius: 50px;
+    border: rgb(53,53,53) 0.1rem solid;
+}
+.b2:hover{
+    background-color: grey;
+}
+.link1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px;
+}
+.icon1{
+    height: 30px;
+    width: 30px;
+}
+.img1 img{
+    height: 350px;
+    width: 350px;
+    float: left;
+    display: block;
+    border-radius: 50%;
+}
+.personal .img1{
+    max-width: 20rem;
+    flex-wrap: wrap;
+    display: inline-flex;
+    gap: 1rem;
+    padding: 2rem;
+    margin-left: 1rem;
+}
+.personal .personal1 {
+    max-width: 20rem;
+    flex-wrap: wrap;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.aboutme p{
+    text-align: center;
+    font-weight: 100;
+}
+.aboutme h1{
+    font-size: 3rem;
+    margin: 0.5rem;
+}
